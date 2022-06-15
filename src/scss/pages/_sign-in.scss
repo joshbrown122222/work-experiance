@@ -1,0 +1,67 @@
+.sign-in {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 100px 0;
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+
+  form {
+    margin-top: 40px;  
+
+    label {
+      font-weight: bold;
+      margin-bottom: 18px;
+      display: block;
+    }
+
+    input{
+      padding: 15px;
+      border-color: #A0BCF8;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 8px;
+      width: 100%;
+    }
+
+    .form-content {
+      display: flex;
+      gap: 20px; 
+
+      fieldset {
+        flex-basis: 50%;
+      }
+    }
+
+    .form-buttons {
+      margin-top: 40px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      a {
+        margin-right: 20px;
+        color: #666666;
+        display: block;
+        text-decoration: none;
+      }
+
+      button {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 48px;
+        padding-right: 48px;
+        border-radius: 8px;
+        background-color: #3371F2;
+        text-align: center;
+        color: #fff;
+      }
+    }
+  }
+
+}

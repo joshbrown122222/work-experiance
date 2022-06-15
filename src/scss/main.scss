@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import './modules/setup';
-@import './modules/variables';
+@import './pages/sign-in';
+@import './pages/subject-listing';
 
 body {
-  background-color: var(--white);
-  color: var(--black);
-
-  h1 {
-    font-weight: bold;
-  }
+  background-color: #fff;
+  color: #000;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 30px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
 }
