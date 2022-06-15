@@ -1,0 +1,11 @@
+@import './modules/setup';
+@import './modules/variables';
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+
+  h1 {
+    font-weight: bold;
+  }
+}
