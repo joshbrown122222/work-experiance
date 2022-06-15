@@ -64,4 +64,4 @@ exports.css = css;
 exports.minCSS = minCSS;
 exports.compileAndMinify = gulp.series(css, minCSS);
 exports.watch = watch;
-exports.default = watch;
+exports.default = gulp.series(css, minCSS);

@@ -14,4 +14,4 @@ Naturally, the index.html will look for the minified CSS file (main.min.css) but
 
 The following steps above only need to be done for the first time running of the project
 
-To compile and run the project, run `gulp` or `gulp watch` within a terminal opened at the root of this project. This should compile the CSS and run a localhost within your default browser. When a change is made within the index.html or any .scss files, the task will automatically compile the styles and reload the browser. 
+To compile and run the project, run `gulp` and then `gulp watch` within a terminal opened at the root of this project. This should compile the CSS and run a localhost within your default browser. When a change is made within the index.html or any .scss files, the task will automatically compile the styles and reload the browser. 
