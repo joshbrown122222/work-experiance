@@ -4,63 +4,76 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="dist/css/main.min.css">
   <title>Subject Outline</title>
 </head>
 <body>
-  <form>
-    <fieldset>
-      <input type="text" name="search-field" />
-    </fieldset>
-    <button type="submit">
-      Search
-    </button>
-  </form>
-  <h1>English</h1>
-  <h2>To do</h2>
-  <form>
-    <fieldset>
-      <input type="checkbox" name="check1" />
-      <label for="check1">Lesson - 16/06</label>
-    </fieldset>
-    <fieldset>
-      <input type="checkbox" name="check2" />
-      <label for="check2">Homework - Frankstein Essay</label>
-    </fieldset>
-  </form>
-  <h3>Completed</h3>
-  <form>
-    <fieldset>
-      <input type="checkbox" name="check3" />
-      <label for="check3">Lesson - 14/06 Context</label>
-    </fieldset>
-    <fieldset>
-      <input type="checkbox" name="check4" />
-      <label for="check4">Homework - 13/06 Research</label>
-    </fieldset>
-  </form>
-  <h4>Past Work</h4>
-  <ul>
-    <li>
-      <a href="#">
-        Frankstein
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        Romeo and Juliet
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        An Inspector Calls
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        Poetry
-      </a>
-    </li>
-  </ul> 
+  <div class="subject-outline">
+    <form class="search">
+      <fieldset>
+        <input type="text" name="search-field" />
+      </fieldset>
+      <button type="submit">
+        <i class="fa fa-search fa-2x"></i>
+      </button>
+    </form>
+    <h1>English</h1>
+    <div class="inner">
+      <h2>To do</h2>
+      <form>
+        <fieldset>
+          <label class="container">Lesson - 16/06
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label class="container">Homework - Frankenstein Essay
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+        </fieldset>
+      </form>
+      <h3>Completed</h3>
+      <form>
+        <fieldset>
+          <label class="container">Lesson - 14/06 Context
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label class="container">Homework - 13/06 Research
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+        </fieldset>
+      </form>
+      <h4>Past Work</h4>
+      <ul>
+        <li>
+          <a href="#">
+            Frankstein
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Romeo and Juliet
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            An Inspector Calls
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Poetry
+          </a>
+        </li>
+      </ul> 
+    </div>
+  </div>
 </body>
 </html>
