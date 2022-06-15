@@ -50,9 +50,8 @@ function minCSS() {
 function watch() {
 
   browserSync.init({
-    server: {
-      baseDir: './'
-    }
+    server: './',
+    index: "index.html"
   });
 
   gulp.watch(allScssFiles, gulp.series(css, minCSS));
