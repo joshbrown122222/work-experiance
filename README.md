@@ -15,3 +15,11 @@ Naturally, the index.html will look for the minified CSS file (main.min.css) but
 The following steps above only need to be done for the first time running of the project
 
 To compile and run the project, run `gulp` and then `gulp watch` within a terminal opened at the root of this project. This should compile the CSS and run a localhost within your default browser. When a change is made within the index.html or any .scss files, the task will automatically compile the styles and reload the browser. 
+
+## Deployment
+
+Deployment will automatically trigger when code has been pushed to the `main` branch on GitHub. The deployment is done through the use of Github Pages. **Please remember** before committing to main to run the `gulp` task within the terminal as the project will need the refreshed compiled CSS code. 
+
+## Live URL 
+
+You can find the site hosted on: [https://joshbrown122222.github.io/work-experiance/](https://joshbrown122222.github.io/work-experiance/)
