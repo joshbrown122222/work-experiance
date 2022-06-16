@@ -275,9 +275,6 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
-# Ignore pregenerated files that are compiled
-dist/
-
 # Visual Studio 6 build log
 *.plg
 
